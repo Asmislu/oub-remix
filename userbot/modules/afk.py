@@ -75,7 +75,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(f"**Going AFK!**\
-        \nReason: `{string}`")
+        \nBecause My Master is `{string}`")
     else:
         await afk_e.edit("**Going AFK!**")
     if user.last_name:
